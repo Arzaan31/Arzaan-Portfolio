@@ -1,8 +1,12 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js",
   "/blog/page": "app/blog/page.js",
-  "/experience/page": "app/experience/page.js",
+  "/certifications/page": "app/certifications/page.js",
   "/contact/page": "app/contact/page.js",
-  "/projects/page": "app/projects/page.js"
+  "/page": "app/page.js",
+  "/experience/page": "app/experience/page.js",
+  "/about/page": "app/about/page.js",
+  "/leadership/page": "app/leadership/page.js",
+  "/projects/page": "app/projects/page.js",
+  "/resume/page": "app/resume/page.js"
 }
