@@ -5,9 +5,7 @@ import Link from 'next/link'
 import { ArrowRight, Download, Mail, ChevronDown, TrendingUp, Brain, BarChart3, Database, Trophy, GraduationCap, Users, FolderOpen, Briefcase, Award, MapPin, ExternalLink } from 'lucide-react'
 import { personalInfo, stats, projects, skills } from '@/lib/data'
 
-import { LucideIcon, FolderOpen, Briefcase, Trophy, GraduationCap, Users, Award } from 'lucide-react';
-
-const iconMap: Record<string, LucideIcon> ={
+const iconMap: Record<string, React.ComponentType<{ size?: number | string; className?: string }>> = {
   FolderOpen, Briefcase, Trophy, GraduationCap, Users, Award
 }
 
