@@ -4,8 +4,11 @@ import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import { ArrowRight, Download, Mail, ChevronDown, TrendingUp, Brain, BarChart3, Database, Trophy, GraduationCap, Users, FolderOpen, Briefcase, Award, MapPin, ExternalLink } from 'lucide-react'
 import { personalInfo, stats, projects, skills } from '@/lib/data'
+import { LucideProps } from 'lucide-react';
+import { ForwardRefExoticComponent, RefAttributes } from 'react';
 
-const iconMap: Record<string, React.ComponentType<{ size?: number | string; className?: string }>> = {
+const iconMap: Record<string, ForwardRefExoticComponent & RefAttributes>
+> = {
   FolderOpen, Briefcase, Trophy, GraduationCap, Users, Award
 }
 
